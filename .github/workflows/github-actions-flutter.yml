@@ -3,11 +3,12 @@ run-name: ${{ github.actor }} a tester de Github Actons Flutter 🚀
 on: [push]
 jobs:
   Exprimentation-Github-Desktop-Flutter: # ou Build?
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          channel: "beta"
-      - run: flutter config --enable-windows-desktop
-      - run: flutter build windows
+          channel: "stable"
+      - run: flutter pub get
+      - run: flutter test
+      - run: flutter build web
