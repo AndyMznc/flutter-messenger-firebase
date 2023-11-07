@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166030816604",
+    "project_id": "flutter-simplon",
+    "storage_bucket": "flutter-simplon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166030816604:android:95b11cdec5c76cbd1efd99",
+        "android_client_info": {
+          "package_name": "fr.onlywin.fluttersimplon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xRcDBAFQeIA9szNkdedGaiRmyluPD24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
