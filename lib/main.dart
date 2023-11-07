@@ -16,12 +16,12 @@ Future<void> main() async {
   await Firebase.initializeApp(
       options: kIsWeb
           ? const FirebaseOptions(
-              apiKey: "AIzaSyCUh4CyO3Zx4cOUqHniBeeRLpLsbxwWXvI",
-              authDomain: "flutter-simplon.firebaseapp.com",
-              projectId: "flutter-simplon",
-              storageBucket: "flutter-simplon.appspot.com",
-              messagingSenderId: "166030816604",
-              appId: "1:166030816604:web:11f4bd8007ec12291efd99")
+              apiKey: "AIzaSyAZnPvLrNOoQ9Eo1W8IHqGpWg8b8eJdYx8",
+              authDomain: "flutter-messenger-194a3.firebaseapp.com",
+              projectId: "flutter-messenger-194a3",
+              storageBucket: "flutter-messenger-194a3.appspot.com",
+              messagingSenderId: "896073890490",
+              appId: "1:896073890490:web:1f094676a638569205a083")
           : null);
   await Jiffy.setLocale('fr');
   runApp(const MyApp());
